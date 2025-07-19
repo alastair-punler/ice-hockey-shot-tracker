@@ -1,4 +1,5 @@
 import React, { forwardRef } from 'react';
+import rinkImage from '../assets/Sport-Hockey-Simple-hockey-field-Template.png';
 import type { Shot, Team } from '../types';
 
 interface HockeyRinkProps {
@@ -34,7 +35,7 @@ export const HockeyRink = forwardRef<HTMLDivElement, HockeyRinkProps>(({ shots, 
       ref={ref}
       className="relative w-full max-w-6xl aspect-[2/0.85] cursor-crosshair rounded-lg overflow-hidden border-2 border-slate-600 shadow-2xl bg-slate-100"
       style={{
-        backgroundImage: `url('https://upload.wikimedia.org/wikipedia/commons/e/e9/Ice_hockey_rink_for_wiki.svg')`,
+        backgroundImage: `url('${rinkImage}')`,
         backgroundSize: 'contain',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
