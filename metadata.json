@@ -1,0 +1,5 @@
+{
+  "name": "Ice Hockey Shot Tracker",
+  "description": "An interactive shot counting app for ice hockey games. Left-click on the rink for a home team shot and right-click for an away team shot. The app tracks shots per period and totals, providing a real-time shot map that accounts for teams switching sides.",
+  "requestFramePermissions": []
+}
